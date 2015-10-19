@@ -3,6 +3,7 @@
 ## 數學仙貝（？
 
   ### Linear Independent
+  
   如果向量 *$${v_1}$$*, *$${v_2}$$*, *$${v_3}$$*, ... , *$${v_n}$$* 為 Linear independent 則：
   
   當
@@ -14,6 +15,7 @@
   $${α_1} = {α_2} = {α_3} = ... = {α_n} = 0$$
   
   ### Dimension
+  
   一個Vector space當中Linear independent的向量數目稱為Dimension。
   
   
