@@ -3,7 +3,13 @@
 ## 數學仙貝（？
 
   ### Linear Independent
+  如果向量 *$${v_1}$$*, *$${v_2}$$*, *$${v_3}$$*, ... , *$${v_n}$$* 為 Linear independent 則：
+  
+  當
+  
+  $${α_1}{v_1}+{α_2}{v_2}+{α_3}{v_3}+ ...  +{α_n}{v_n} = 0$$
    
+  $${α_1} = {α_2} = {α_3} = ... = {α_n} = 0$$
 
 ## Matrix Stack
   在做Transformations時，會不斷對Model-View Matrix做操作，在處理多個物件時，常常會需要使matrix回到前一個狀態。
