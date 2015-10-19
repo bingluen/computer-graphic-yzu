@@ -2,7 +2,7 @@
 
 ## 數學仙貝（？
 
-  ### Linear Independent
+  ### Linear Independent #
   
   如果向量 *$${v_1}$$*, *$${v_2}$$*, *$${v_3}$$*, ... , *$${v_n}$$* 為 Linear independent 則：
   
