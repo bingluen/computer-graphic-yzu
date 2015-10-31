@@ -25,6 +25,7 @@ glutInitWindowPosition(x, y);
 glutCreateWindow(windowTitle);
 glutDisplayFunc( DisplayFunc );
 glutReshapeFunc( ReshapeFunc );
+glutMainLoop();
 ```
 ##### init
   可以透過 command line 給予初始化參數。若不打算從 command line 輸入初始化參數則省略此設定。
@@ -64,3 +65,6 @@ void (fun*) (void)
   在Mac OS X 會進入 Reshape 狀態的時機：
   * 視窗剛建立時
   * 視窗大小改變時
+
+##### MainLoop
+  OpenGL 進入點，前述所有的glut function一定要放在此之前。
